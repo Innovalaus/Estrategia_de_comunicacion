@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Estrategia de Comunicación</title>
+    <!-- Tailwind en modo CDN/JIT: necesario porque App.jsx construye clases en
+         tiempo de ejecución (p.ej. `bg-${colorClass}-900/40`), que un build
+         estático de Tailwind no detectaría. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
