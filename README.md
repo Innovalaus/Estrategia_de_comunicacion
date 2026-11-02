@@ -1,4 +1,4 @@
-# Estrategia de Comunicación — Instituto Fisio Virtual
+# Estrategia de Comunicación 
 
 Herramienta en 3 pasos para construir una estrategia de comunicación:
 
