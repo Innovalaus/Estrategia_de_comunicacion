@@ -5,5 +5,5 @@ import { viteSingleFile } from 'vite-plugin-singlefile';
 // Genera dist/index.html autocontenido (JS inline) para abrirlo sin servidor.
 export default defineConfig({
   plugins: [react(), viteSingleFile()],
-  build: { outDir: 'dist', emptyOutDir: true },
+  build: { outDir: 'dist', emptyOutDir: true, assetsInlineLimit: 100_000 },
 });
